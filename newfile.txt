@@ -1,5 +1,5 @@
-docker run -it -e NGROK_AUTHTOKEN=2RbSPCaPb3HFMpvNamLMMPVHQnJ_4ZPWrkqEvPGxrJ53yDifL ngrok/ngrok http 80
+docker run -it -e NGROK_AUTHTOKEN=2_4ZPWrkqEvPGxrJ53yDifL ngrok/ngrok http 80
 
-$ kubectl create secret generic git-secret --from-literal=secretToken=tekton-token 
+$ kubectl create secret generic git-secret --from-literal=secretToken=tekton- 
 
 secret/git-secret created 
